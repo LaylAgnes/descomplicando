@@ -3,6 +3,9 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -10,15 +13,16 @@ body {
 }
 
 section {
+  
   padding: 40px 15px;
 }
 
 #home {
   color: white;
   width: 100%;
-  min-height: 82vh; /* melhor que height fixa */
+  min-height: 82vh; 
   padding: 2rem;
-  display: flex; /* centraliza conteúdo */
+  display: flex; 
   flex-direction: column;
   justify-content: center;
   text-align: center;
@@ -31,7 +35,7 @@ section {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(102, 102, 102, 0.203); /* overlay para contraste */
+  background: rgba(102, 102, 102, 0.203);
   z-index: -1;
 }
 
@@ -41,7 +45,21 @@ section {
 }
 
 ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#card{
+ display: flex;
+ flex-direction: column;
+ align-content: space-between;
+justify-content: center;
+}
+
+#card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    height: 100%;
 }
