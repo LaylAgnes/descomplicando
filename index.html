@@ -15,50 +15,50 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
       <!-- navbar (menu de navegação) -->
-      <nav class="navbar sticky-top navbar-dark p-3 mb-2 bg-dark text-white">
-        <a class="navbar-brand" href="#">Descomplicando a Descomplica</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Alterna navegação"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Descomplicando a Descomplica</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link font-weight-bold" href="#home"
-              ><i class="bi bi-house-door"></i> Home</a
-            >
-            <a class="nav-item nav-link font-weight-bold" href="#about"
-              ><i class="bi bi-info-circle"></i> Sobre</a
-            >
-            <a class="nav-item nav-link font-weight-bold" href="#links"
-              ><i class="bi bi-link-45deg"></i> Links</a
-            >
-            <a class="nav-item nav-link font-weight-bold" href="#pex"
-              ><i class="bi bi-journal-check"></i> PEX</a
-            >
-            <a class="nav-item nav-link font-weight-bold" href="#contact"
-              ><i class="bi bi-envelope"></i> Contato</a
-            >
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Descomplicando a Descomplica</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#home" data-bs-dismiss="offcanvas">Home</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#about" data-bs-dismiss="offcanvas">Sobre</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#links" data-bs-dismiss="offcanvas">Links</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#pex" data-bs-dismiss="offcanvas">PEX</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact" data-bs-dismiss="offcanvas">Contato</a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
+        </div> 
       </nav>
     </header>
 
@@ -112,7 +112,7 @@
             estudos e sua vida acadêmica.
           </p>
 
-          <div class="card-deck">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="card border-dark mb-3" id="card">
               <img
                 class="card-img-top"
@@ -225,6 +225,10 @@
             <li>🎯 Estratégias para mandar bem</li>
           </ul>
           <br>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque qui eius, provident quis optio eligendi ratione quisquam nobis nam omnis assumenda minus impedit velit exercitationem accusamus. Tempora officia praesentium facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium cupiditate illo eaque sunt eligendi autem quas expedita animi nesciunt excepturi, reprehenderit dolorem repudiandae possimus placeat. Quia quaerat ipsa quo possimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni neque hic cupiditate? Numquam inventore, debitis magni, esse iusto dicta quidem corporis excepturi eius distinctio, quae dolorem assumenda beatae adipisci!</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque qui eius, provident quis optio eligendi ratione quisquam nobis nam omnis assumenda minus impedit velit exercitationem accusamus. Tempora officia praesentium facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium cupiditate illo eaque sunt eligendi autem quas expedita animi nesciunt excepturi, reprehenderit dolorem repudiandae possimus placeat. Quia quaerat ipsa quo possimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni neque hic cupiditate? Numquam inventore, debitis magni, esse iusto dicta quidem corporis excepturi eius distinctio, quae dolorem assumenda beatae adipisci!</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque qui eius, provident quis optio eligendi ratione quisquam nobis nam omnis assumenda minus impedit velit exercitationem accusamus. Tempora officia praesentium facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium cupiditate illo eaque sunt eligendi autem quas expedita animi nesciunt excepturi, reprehenderit dolorem repudiandae possimus placeat. Quia quaerat ipsa quo possimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni neque hic cupiditate? Numquam inventore, debitis magni, esse iusto dicta quidem corporis excepturi eius distinctio, quae dolorem assumenda beatae adipisci!</p>
+          <br>
           <p><a href="https://no.descomplica.com.br/knowledge/o-que-%C3%A9-projeto-de-extens%C3%A3o" target="_blank" class="btn btn-dark">Ver Guia Completo</a></p>
         </section>
 
@@ -232,7 +236,7 @@
           <h2>Contato</h2>
           <p>
             Tem sugestões ou quer contribuir? <br> Me envie um 
-            <a href="mailto:laylaagnes001@gmail.com"</a> e-mail.
+            <a href="mailto:laylaagnes001@gmail.com">e-mail</a>.
           </p>
         </section>
       </main>
@@ -248,20 +252,54 @@
     </footer>
   </body>
 
-  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-  <script
-    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"
-  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+          integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+          crossorigin="anonymous"></script>
+   <script>
+  const navLinks = document.querySelectorAll('.offcanvas a.nav-link');
+  const offcanvasEl = document.getElementById('offcanvasDarkNavbar');
+  const offcanvas = bootstrap.Offcanvas.getOrCreateInstance(offcanvasEl);
+
+  // Scroll suave e fechamento do offcanvas
+  navLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+      const targetId = this.getAttribute('href');
+      if (targetId.startsWith('#')) {
+        e.preventDefault();
+        const section = document.querySelector(targetId);
+        if (section) {
+          offcanvas.hide();
+          setTimeout(() => {
+            section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }, 300);
+        }
+      }
+    });
+  });
+
+  function updateActiveLink() {
+    let scrollPosition = window.scrollY + window.innerHeight / 3; // meio da tela
+    let lastLink = navLinks[navLinks.length - 1];
+
+    let activeSet = false;
+    navLinks.forEach(link => {
+      const section = document.querySelector(link.getAttribute('href'));
+      if (section && scrollPosition >= section.offsetTop) {
+        navLinks.forEach(l => l.classList.remove('active'));
+        link.classList.add('active');
+        activeSet = true;
+      }
+    });
+
+    // Se chegou no final da página, garante que Contato fique ativo
+    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+      navLinks.forEach(l => l.classList.remove('active'));
+      lastLink.classList.add('active');
+    }
+  }
+
+  window.addEventListener('scroll', updateActiveLink);
+  window.addEventListener('resize', updateActiveLink);
+  updateActiveLink();
+</script>
 </html>

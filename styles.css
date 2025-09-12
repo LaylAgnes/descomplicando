@@ -3,9 +3,6 @@ html {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  align-content: space-between;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -13,8 +10,8 @@ body {
 }
 
 section {
-  
   padding: 40px 15px;
+  scroll-margin-top: 70px;
 }
 
 #home {
