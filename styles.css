@@ -12,7 +12,35 @@ body {
 section {
   padding: 40px 15px;
   scroll-margin-top: 70px;
+  justify-content: center;
+  text-align: center;
 }
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+h2{
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+h3{
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+ul li{
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
 
 #home {
   color: white;
