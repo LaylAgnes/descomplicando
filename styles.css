@@ -52,7 +52,6 @@ ul{
  flex-direction: column;
  align-content: space-between;
  justify-content: center;
-
 }
 
 #card .card-body {
@@ -62,3 +61,5 @@ ul{
     height: 100%;
     gap: 5px;
 }
+
+
